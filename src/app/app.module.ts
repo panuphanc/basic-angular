@@ -8,6 +8,7 @@ import { WarningComponent } from './warning/warning.component';
 import { ServersComponent } from './servers/servers.component';
 import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FooterComponent } from './footer/footer.component';
     WarningComponent,
     ServersComponent,
     NavComponent,
-    FooterComponent
+    FooterComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
