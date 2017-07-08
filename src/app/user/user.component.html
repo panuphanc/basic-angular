@@ -1,0 +1,7 @@
+<label for="user"><strong>Username</strong></label>
+<input type="text" class="form-control" id="user"
+    [(ngModel)]="username" />
+<h2>{{username}}</h2>
+<button class="btn btn-danger"
+    [disabled]="username === ''"
+    (click)="onResetUsername()">Reset username</button>
