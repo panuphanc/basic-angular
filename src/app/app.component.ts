@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  isShow = false;
+  btnClickLogs = [];
+
+  showDetail() {
+    this.isShow = !this.isShow;
+    this.btnClickLogs.push(new Date());
+  }
 }
